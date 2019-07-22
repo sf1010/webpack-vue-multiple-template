@@ -19,7 +19,7 @@
 </script>
 
 <style scoped lang='less'>
-  @import '../assets/styles/normalize.min.css';
+  @import '../../assets/styles/normalize.min.css';
 
   .test-text {
     color: blue;

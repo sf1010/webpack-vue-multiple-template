@@ -26,7 +26,7 @@
 </script>
 
 <style scoped lang='less'>
-  @import '../assets/styles/normalize.min.css';
+  @import '../../assets/styles/normalize.min.css';
 
   .home-text {
     color: red;

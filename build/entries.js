@@ -4,8 +4,8 @@ module.exports = {
   // 有多少页面就写多少入口
   // 主页最后会变成index.html，其余页面会变成[name].html
   entry: {
-    home: './src/pages/home.js',// 主页
-    test: './src/pages/test.js',// 其余的
+    home: './src/pages/home/index.js',// 主页
+    test: './src/pages/test/index.js',// 其余的
   },
   plugin: [
     // html模板打包
