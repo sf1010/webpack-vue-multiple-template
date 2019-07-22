@@ -1,33 +1,38 @@
 {
+  "extends": [
+    "plugin:vue/recommended"
+  ],
   "env": {
     "node": true,
     "browser": true,
     "es6": true,
     "mocha": true
   },
-  "parser": "babel-eslint",
   "parserOptions": {
+    "parser": "babel-eslint",
     "sourceType": "module"
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "new-cap": "off",
-    "newline-after-var": "off",
-    "no-invalid-this": "off",
     "quotes": [
       "error",
       "single"
     ],
-    "guard-for-in": "off",
-    "no-console": "off",
-    "no-undefined": "off",
-    "array-bracket-spacing": "off",
-    "no-unused-expressions": "off",
-    "linebreak-style": "off",
-    "func-style": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
     "comma-dangle": [
       "error",
       "only-multiline"
