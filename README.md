@@ -2,14 +2,14 @@
 基于webpack4构建的多页面vue模板
 
 ## 使用方法
-~~~
+```
 git clone git@github.com:sf1010/webpack-vue-multiple-template.git
 cd webpack-vue-multiple-template
 npm install
 npm run dev
 or
 npm run build
-~~~
+```
 
 ## 使用框架
 - [vue](https://cn.vuejs.org)
@@ -17,7 +17,7 @@ npm run build
 - [normalize](http://necolas.github.io/normalize.css/)
 
 ## 项目结构
-~~~
+```
 ├─build                       webpack编译配置文件目录
 │  ├─entries.js               webpack的多入口配置文件，是多页面配置的核心
 │  ├─webpack.base.config.js   webpack基础配置文件
@@ -44,7 +44,7 @@ npm run build
 │  ├─tools                    公用方法，请求拦截器目录
 │  │  ├─utils.js              公用方法目录
 │  │  └─request.js            请求拦截器
-~~~
+```
 
 ## 其他
 - 完成基本的按需加载等常用开发功能
